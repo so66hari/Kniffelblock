@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="settings">
+        <CheckBoxPreference
+        android:layout_width="match_parent"
+        android:defaultValue="true"
+        android:key="check_warning"
+        android:summary="Neues Spiel, Löschen der Daten"
+        android:title="Warnungen anzeigen" />
+        <CheckBoxPreference
+            android:layout_width="match_parent"
+            android:defaultValue="false"
+            android:key="check_design"
+            android:title="Dunkles Design" />
+        <Preference
+            android:id="@+id/delete_games"
+            android:layout_width="match_parent"
+            android:key="button_delete"
+            android:title="Spieldaten löschen" />
+    </PreferenceCategory>
+</PreferenceScreen>

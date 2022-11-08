@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Kniffel</string>
+    <string name="label_settings">Einstellungen</string>
+    <string name="label_rules">Regelwerk</string>
+    <string name="label_newGame">Neues Spiel</string>
+    <string name="label_continue">Spiel fortsetzen</string>
+    <string name="spiel_1">Spiel 1</string>
+    <string name="tab_text_1" translatable="false">Tab 1</string>
+    <string name="tab_text_2" translatable="false">Tab 2</string>
+    <string name="label_addRound">Runde hinzufügen</string>
+    <string name="label_FAQ">Was ist Kniffel?</string>
+    <string name="text_1">Kniffel oder Yahtzee ist ein Würfelspiel mit fünf Würfel und einem Spielblock pro Spieler. Eine Mindest– oder Höchstanzahl von Spielern ist nicht gesetzt und mehrere Formen mit leicht abgewandten Regeln sind überall auf der Welt zu finden. Je nach Spielerzahl variiert die Spieldauer von 20-60 Minuten.</string>
+    <string name="label_rules_general">Allgemeine Spielregeln</string>
+    <string name="text_genereal">Jeder Spieler erhält einen eigenen Spielblock (Tab), in welchen er seine Ergebnisse einträgt. Gespielt wrd mit fünf sechs-seitigen, fairen Würfeln, die mithilfe eines Würfelbechers geworfen werden.\n
+    Pro Spielerrunde darf bis zu dreimal gewürfelt werden, bevor der Würfelbecher samt Würfel an den nächsten Spieler weitergegeben wird.\n
+    Ziel ist es, die meisten Spielfelder mit optimalen Ergebnissen zu füllen und am Ende die meisten Punkte zu erreichen. \n
+    Das Spiel ist zu Ende, wenn alle Spieler ihren Kniffelblock ausgefüllt haben.</string>
+    <string name="label_playerround">Spielerrunde</string>
+    <string name="text_playerround">Jeder Spieler darf, muss aber nicht bis zu dreimal würfeln in seiner Runde. Dabei darf er nach dem ersten und zweiten Wurf \"passende\" Würfel zur Seite legen. Bereits zurück gelegte Würfel dürfen auch wieder aufgehoben und erneut geworfen werden. Am Ende seiner Runde trägt er in einer Zeile die erreichten Punkte ein. \n
+        Dabei muss immer etwas eingetragen werden. Hat der Spieler keine Kategorie erfüllen können (oder schon etwas in dem Feld eingetragen), trägt er in einem freien Feld seiner Wahl 0 Punkte ein. \n
+    <u>Beispiel:</u>\n
+        1. Wurf: 6, 6, 3, 4, 1: Spieler legt 6, 6 zurück und würfelt die anderen erneut. (für einen Dreier- oder Viererpasch) \n
+    2. Wurf: 2, 3, 4: Spieler legt die 2, 3, 4 zurück und nimmt eine 6 wieder auf.\n
+    3. Wurf: 5: Spieler hat eine große Straße (2, 3, 4, 5, 6)\n
+    Spieler trägt in der Zeile \"große Straße\" die Punkte ein und gibt den Würfelbecher samt Würfel an den nächsten Spieler weiter.</string>
+    <string name="label_punktevergabe">Punktevergabe</string>
+    <string name="text_punktevergabe">Die Punkte werden für jede Kategorie anders berechnet. Dabei gibt es auch Unterschiede zwischen der oberen und unteren Tabelle.\n
+        Welche Kategorie wieviele Punkte gibt, kann jederzeit im Spiel durch ein Klick auf dasjeweilige Feld nachgesehen werden.</string>
+    <string name="label_table1">Die obere Tabelle</string>
+    <string name="text_table1">Die obere Tabelle besteht aus den Kategorien \"Einser\", \"Zweier\", \"Dreier\", \"Vierer\", \"Fünfer\" und \"Sechser\". Wenn in der oberen Tabelle eine Punktzahl von mindestens 65 Punkten erreicht wird, erhält der Spieler 35 Bonuspunkte.\n
+    Ziel ist es, so viele Würfel mit derselben Augenzahl wie möglich zu werfen. Für die \"Einser\" zählen nur die Würfel mit der Augenzahl 1, für die \"Zweier\" die Augenzahl 2 usw. \n
+    Dabei werden als Punkte die Summe dieser Augenzahlen eingetragen.\n
+    <u>Beispiel:</u> 1, 1, 1, 3, 4 \n Für \"Einser\": dreimal 1 = 1 + 1 + 1 = 3 Punkte \n Für \"Vierer\": einmal 4 = 4 Punkte, usw.</string>
+    <string name="label_table2">Die untere Tabelle</string>
+    <string name="text_table2">Die untere Tabelle besteht aus den Kategorien \"Dreierpasch\", \"Viererpasch\", \"Full House\", \"Kleine Straße\", \"Große Straße\", \"Kniffel\" und \"Chance\". die Punktevergabe verläuft hier etwas anders.</string>
+    <string name="subtitle_pasch">Dreier- bzw. Viererpasch</string>
+    <string name="text_pasch">Der Spieler hat einen Dreier- bzw. Viererpasch, wenn mindestens drei bzw. vier gleiche Würfel geworfen wurden. Die erreichte Punktzahl berechnet sich aus der Summe aller Augenzahlen.\n
+    <u>Beispiel:</u> 1, 1, 1, 3, 4\n
+        Dreierpasch mit 1: 1 + 1 + 1 + 3 + 4 = 10 Punkte</string>
+    <string name="subtitle_fullHouse" translatable="false">Full House</string>
+    <string name="text_fullHouse">Der Spieler hat ein \"Full House\", wenn er zwei gleiche und drei gleiche Augenzahlen gewürfelt hat. Dafür gibt es 25 Punkte.\n
+    <u>Beispiel:</u> 1, 1, 1, 2, 2 -> 25 Punkte</string>
+    <string name="label_strasse">Kleine und Große Straße</string>
+    <string name="text_strasse">Eine \"kleine Straße\" besteht aus vier aufeinanderfolgenden Augenzahlen, eine \"große Straße\" aus fünf. Dafür gibt es 30 bzw. 40 Punkte.\n
+    <u>Beispiel:</u> 2, 3, 4, 5, 6: fünf aufeinanderfolgende Augenzahlen -> 40 Punkte</string>
+    <string name="text_kniffel">Bei fünf gleichen Augenzahlen hat der Spieler ein \"Kniffel\" und bekommt dafür 50 Punkte.\n
+    <u>Beispiel:</u> 4, 4, 4, 4, 4 -> 50 Punkte</string>
+    <string name="label_chance" translatable="false">Chance</string>
+    <string name="text_chance">Bei \"Chance\" ist es egal, was für Augenzahlen gewürfelt wurden. Die Punkte berechnen sich aus der Summe der Augenzahlen. \n
+    <u>Beispiel:</u> 1, 3, 4, 4, 5 \n 1 + 3 + 4 + 4 + 5 = 17 Punkte</string>
+    <string name="label_kniffelblock">Kniffelblock</string>
+    <string name="label_games">Spiele</string>
+    <string name="title_activity_list" translatable="false">ListActivity</string>
+    <string name="label_clear">Spieldaten löschen</string>
+    <string name="label_finished">abgeschlossene Spiele</string>
+    <string name="warningText_game">Beim Starten eines neuen Spiels wird das alte Spiel überschrieben.</string>
+    <string name="warningTitle_game">Spiel überschreiben</string>
+    <string name="warningText_hide">nicht mehr anzeigen</string>
+    <string name="anzahl_spieler">Anzahl Spieler:</string>
+    <string name="action_saveData">Spielstand speichern</string>
+</resources>
