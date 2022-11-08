@@ -66,8 +66,8 @@ public class GameCalculatorAsyncTask extends AsyncTask<Boolean, Void, String> {
                             dao.insertGame(game);
                         }
                         ArrayList<String> intToStr = new ArrayList<>();
-                        for (int k = 0; k < oneRound.size(); k++) {
-                            intToStr.add(oneRound.get(k).toString());
+                        for (Integer integer : oneRound) {
+                            intToStr.add(integer.toString());
 
                         }
                         StringBuilder sb = new StringBuilder();
